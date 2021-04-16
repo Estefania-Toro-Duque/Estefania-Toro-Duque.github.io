@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <header>
+        <nav class="topnav" id="portfolioTopnav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#accomplishments">Accomplishments</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+        </nav>
+        <title>
+            Estefania Toro Duque's Portfolio
+        </title>
+    </head>
+        <body> 
+               <h1>Estefanía Toro Duque</h1>
+        </header>
+            <figure>
+              <a href="https://www.linkedin.com/in/estefan%C3%ADa-toro-duque-821832209/" target="_blank"> <img src="perfil.JPEG" width="300" height="200" alt="Person sitting in a recording studio" class="photo" /></a>
+            </figure>
+            <main>
+           <!--About Section-->
+           <div id="aboutsection">
+              <h2 id="about" class="heading uppercase">About</h2>
+            <p>I am a sound engineer graduated from <em>Pontificia Universidad Javeriana</em> and I work with sound for film, television and audiovisual media. Currently, I am developing a research project at Queensland University of Technology about <strong>managing subjectivity in sound design education.</strong></p>
+            <br>
+           </div>
+           <div id="skillsection">
+            <!--Skills Section-->
+            <h3 id="skills">Skills</h3>
+            <div id="researchskills">
+            <h4>Research Skills</h4>
+            <ul class="list">
+                <li>Organization and planning</li>
+                <li>Critical thinking</li>
+                <li>Analysis of sources and information</li>
+                <li>Creative thinking</li>
+            </ul>
+            </div>
+            <div id="interpersonalskills">
+            <h4>Interpersonal Skills</h4>
+            <ul class="list">
+                <li>Responsibility</li>
+                <li>Organization</li>
+                <li>Teamwork</li>
+                <li>Active listening</li>
+            </ul>
+            </div>
+            <div id="technicalskills">
+            <h4>Technical Skills</h4>
+            <ul class="list">
+                <li>Advanced management of audio software</li>             
+                <li>Audio recording, mixing and editing</li>
+                <li>Basic management of video software</li>
+                <li>Project management</li>
+            </ul>
+            </div>
+        </div>
+        <!--Accomplishments Section-->
+        <div id="accomplishmentsection">
+            <h2 id="accomplishments">Accomplishments</h2>
+            <table>
+                <tr>
+                    <th scope="col">Year</th>
+                    <th scope="col">Award</th>
+                </tr>
+                <tr>
+                    <td>2017</td>  
+                    <td>First place in Javeriana's annual Audio Engineering Socieaty audiovisual competition. Sound design category.</td>             
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>Pontificia Universidad Javeriana's academic merit award.</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>RTVC's "<em>Con la Lavadora al Fondo</em>" scholarship for soundscape design. </td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>Colfuturo scholarship/loan award.</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>Queensland University of Technology HDR Tuition Fee Sponsorship.</td>
+                </tr>
+            </table>
+        </div>
+        <!--Quiz Section-->
+        <div id="quizsection">
+        <h2 id="quiz" class="quiz">Quiz</h2>
+        <form method="GET" action="./quiz.html">
+            <button type="submit" class="button">Take the Quiz Here</button>
+        </form>
+        </div>
+        <!--Contact Section-->
+        <div id="contactsection">
+            <h2 id="contact" class="contactform">Contact</h2>
+            <a href="https://www.linkedin.com/in/estefan%C3%ADa-toro-duque-821832209/"><button class="button"> LinkedIn</button></a>
+            <br>
+            <br>
+            <form id="contactform" action="https://formspree.io/f/mrgrbbpo" method="POST">
+                <label for="*Name">*Name</label>
+                <br>
+                <input type="text" name="*Name" id="*Name" required>
+                <br>
+                <br>
+                <label for="*Email">*Email</label>
+                <br>
+                <input type="text" name="*Email" id="*Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                <br>
+                <br>
+                <label for="Mobile">Mobile (Optional)</label>
+                <br>
+                <input type="number" name="Mobile" id="Mobile" pattern="[0-9]">
+                <br>
+                <br>
+                <label for="*Message">*Leave your message below:</label>
+                <br>
+                <textarea id="*Message" name="*Message" rows="5" cols="30" required></textarea>
+                <br>
+                <br>
+                <input type="submit" class="button">
+            </form>
+        </div>
+         </main>
+         <script src="./nav.js"></script>
+        </body>
+</html>

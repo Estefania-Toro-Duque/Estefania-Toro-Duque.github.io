@@ -1,5 +1,5 @@
 //Creates a pop-up alert
-alert('Hello World');
+alert('Welcome!');
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function openMenu() {
     var x = document.getElementById("portfolioTopnav");
